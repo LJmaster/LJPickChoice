@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5693B9B41D517BEA00ADDB30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B9B31D517BEA00ADDB30 /* main.m */; };
+		5693B9B71D517BEA00ADDB30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B9B61D517BEA00ADDB30 /* AppDelegate.m */; };
+		5693B9BA1D517BEB00ADDB30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B9B91D517BEB00ADDB30 /* ViewController.m */; };
+		5693B9BD1D517BEB00ADDB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5693B9BB1D517BEB00ADDB30 /* Main.storyboard */; };
+		5693B9BF1D517BEB00ADDB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5693B9BE1D517BEB00ADDB30 /* Assets.xcassets */; };
+		5693B9C21D517BEB00ADDB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5693B9C01D517BEB00ADDB30 /* LaunchScreen.storyboard */; };
+		5693B9CD1D517BEB00ADDB30 /* PickChioceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B9CC1D517BEB00ADDB30 /* PickChioceDemoTests.m */; };
+		5693B9D81D517BEB00ADDB30 /* PickChioceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B9D71D517BEB00ADDB30 /* PickChioceDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5693B9C91D517BEB00ADDB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5693B9A71D517BEA00ADDB30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5693B9AE1D517BEA00ADDB30;
+			remoteInfo = PickChioceDemo;
+		};
+		5693B9D41D517BEB00ADDB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5693B9A71D517BEA00ADDB30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5693B9AE1D517BEA00ADDB30;
+			remoteInfo = PickChioceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5693B9AF1D517BEA00ADDB30 /* PickChioceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickChioceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B9B31D517BEA00ADDB30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5693B9B51D517BEA00ADDB30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5693B9B61D517BEA00ADDB30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5693B9B81D517BEA00ADDB30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5693B9B91D517BEB00ADDB30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5693B9BC1D517BEB00ADDB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5693B9BE1D517BEB00ADDB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5693B9C11D517BEB00ADDB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5693B9C31D517BEB00ADDB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693B9C81D517BEB00ADDB30 /* PickChioceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickChioceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B9CC1D517BEB00ADDB30 /* PickChioceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickChioceDemoTests.m; sourceTree = "<group>"; };
+		5693B9CE1D517BEB00ADDB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693B9D31D517BEB00ADDB30 /* PickChioceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickChioceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B9D71D517BEB00ADDB30 /* PickChioceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickChioceDemoUITests.m; sourceTree = "<group>"; };
+		5693B9D91D517BEB00ADDB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5693B9AC1D517BEA00ADDB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9C51D517BEB00ADDB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9D01D517BEB00ADDB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5693B9A61D517BEA00ADDB30 = {
+			isa = PBXGroup;
+			children = (
+				5693B9B11D517BEA00ADDB30 /* PickChioceDemo */,
+				5693B9CB1D517BEB00ADDB30 /* PickChioceDemoTests */,
+				5693B9D61D517BEB00ADDB30 /* PickChioceDemoUITests */,
+				5693B9B01D517BEA00ADDB30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5693B9B01D517BEA00ADDB30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5693B9AF1D517BEA00ADDB30 /* PickChioceDemo.app */,
+				5693B9C81D517BEB00ADDB30 /* PickChioceDemoTests.xctest */,
+				5693B9D31D517BEB00ADDB30 /* PickChioceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5693B9B11D517BEA00ADDB30 /* PickChioceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5693B9B51D517BEA00ADDB30 /* AppDelegate.h */,
+				5693B9B61D517BEA00ADDB30 /* AppDelegate.m */,
+				5693B9B81D517BEA00ADDB30 /* ViewController.h */,
+				5693B9B91D517BEB00ADDB30 /* ViewController.m */,
+				5693B9BB1D517BEB00ADDB30 /* Main.storyboard */,
+				5693B9BE1D517BEB00ADDB30 /* Assets.xcassets */,
+				5693B9C01D517BEB00ADDB30 /* LaunchScreen.storyboard */,
+				5693B9C31D517BEB00ADDB30 /* Info.plist */,
+				5693B9B21D517BEA00ADDB30 /* Supporting Files */,
+			);
+			path = PickChioceDemo;
+			sourceTree = "<group>";
+		};
+		5693B9B21D517BEA00ADDB30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5693B9B31D517BEA00ADDB30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5693B9CB1D517BEB00ADDB30 /* PickChioceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5693B9CC1D517BEB00ADDB30 /* PickChioceDemoTests.m */,
+				5693B9CE1D517BEB00ADDB30 /* Info.plist */,
+			);
+			path = PickChioceDemoTests;
+			sourceTree = "<group>";
+		};
+		5693B9D61D517BEB00ADDB30 /* PickChioceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5693B9D71D517BEB00ADDB30 /* PickChioceDemoUITests.m */,
+				5693B9D91D517BEB00ADDB30 /* Info.plist */,
+			);
+			path = PickChioceDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5693B9AE1D517BEA00ADDB30 /* PickChioceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B9DC1D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemo" */;
+			buildPhases = (
+				5693B9AB1D517BEA00ADDB30 /* Sources */,
+				5693B9AC1D517BEA00ADDB30 /* Frameworks */,
+				5693B9AD1D517BEA00ADDB30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickChioceDemo;
+			productName = PickChioceDemo;
+			productReference = 5693B9AF1D517BEA00ADDB30 /* PickChioceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5693B9C71D517BEB00ADDB30 /* PickChioceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B9DF1D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemoTests" */;
+			buildPhases = (
+				5693B9C41D517BEB00ADDB30 /* Sources */,
+				5693B9C51D517BEB00ADDB30 /* Frameworks */,
+				5693B9C61D517BEB00ADDB30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5693B9CA1D517BEB00ADDB30 /* PBXTargetDependency */,
+			);
+			name = PickChioceDemoTests;
+			productName = PickChioceDemoTests;
+			productReference = 5693B9C81D517BEB00ADDB30 /* PickChioceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5693B9D21D517BEB00ADDB30 /* PickChioceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B9E21D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemoUITests" */;
+			buildPhases = (
+				5693B9CF1D517BEB00ADDB30 /* Sources */,
+				5693B9D01D517BEB00ADDB30 /* Frameworks */,
+				5693B9D11D517BEB00ADDB30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5693B9D51D517BEB00ADDB30 /* PBXTargetDependency */,
+			);
+			name = PickChioceDemoUITests;
+			productName = PickChioceDemoUITests;
+			productReference = 5693B9D31D517BEB00ADDB30 /* PickChioceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5693B9A71D517BEA00ADDB30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liujie;
+				TargetAttributes = {
+					5693B9AE1D517BEA00ADDB30 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5693B9C71D517BEB00ADDB30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5693B9AE1D517BEA00ADDB30;
+					};
+					5693B9D21D517BEB00ADDB30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5693B9AE1D517BEA00ADDB30;
+					};
+				};
+			};
+			buildConfigurationList = 5693B9AA1D517BEA00ADDB30 /* Build configuration list for PBXProject "PickChioceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5693B9A61D517BEA00ADDB30;
+			productRefGroup = 5693B9B01D517BEA00ADDB30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5693B9AE1D517BEA00ADDB30 /* PickChioceDemo */,
+				5693B9C71D517BEB00ADDB30 /* PickChioceDemoTests */,
+				5693B9D21D517BEB00ADDB30 /* PickChioceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5693B9AD1D517BEA00ADDB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B9C21D517BEB00ADDB30 /* LaunchScreen.storyboard in Resources */,
+				5693B9BF1D517BEB00ADDB30 /* Assets.xcassets in Resources */,
+				5693B9BD1D517BEB00ADDB30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9C61D517BEB00ADDB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9D11D517BEB00ADDB30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5693B9AB1D517BEA00ADDB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B9BA1D517BEB00ADDB30 /* ViewController.m in Sources */,
+				5693B9B71D517BEA00ADDB30 /* AppDelegate.m in Sources */,
+				5693B9B41D517BEA00ADDB30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9C41D517BEB00ADDB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B9CD1D517BEB00ADDB30 /* PickChioceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B9CF1D517BEB00ADDB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B9D81D517BEB00ADDB30 /* PickChioceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5693B9CA1D517BEB00ADDB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5693B9AE1D517BEA00ADDB30 /* PickChioceDemo */;
+			targetProxy = 5693B9C91D517BEB00ADDB30 /* PBXContainerItemProxy */;
+		};
+		5693B9D51D517BEB00ADDB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5693B9AE1D517BEA00ADDB30 /* PickChioceDemo */;
+			targetProxy = 5693B9D41D517BEB00ADDB30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5693B9BB1D517BEB00ADDB30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5693B9BC1D517BEB00ADDB30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5693B9C01D517BEB00ADDB30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5693B9C11D517BEB00ADDB30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5693B9DA1D517BEB00ADDB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5693B9DB1D517BEB00ADDB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5693B9DD1D517BEB00ADDB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickChioceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5693B9DE1D517BEB00ADDB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickChioceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5693B9E01D517BEB00ADDB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickChioceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickChioceDemo.app/PickChioceDemo";
+			};
+			name = Debug;
+		};
+		5693B9E11D517BEB00ADDB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickChioceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickChioceDemo.app/PickChioceDemo";
+			};
+			name = Release;
+		};
+		5693B9E31D517BEB00ADDB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickChioceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickChioceDemo;
+			};
+			name = Debug;
+		};
+		5693B9E41D517BEB00ADDB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickChioceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIUJIE.PickChioceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickChioceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5693B9AA1D517BEA00ADDB30 /* Build configuration list for PBXProject "PickChioceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B9DA1D517BEB00ADDB30 /* Debug */,
+				5693B9DB1D517BEB00ADDB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693B9DC1D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B9DD1D517BEB00ADDB30 /* Debug */,
+				5693B9DE1D517BEB00ADDB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5693B9DF1D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B9E01D517BEB00ADDB30 /* Debug */,
+				5693B9E11D517BEB00ADDB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5693B9E21D517BEB00ADDB30 /* Build configuration list for PBXNativeTarget "PickChioceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B9E31D517BEB00ADDB30 /* Debug */,
+				5693B9E41D517BEB00ADDB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5693B9A71D517BEA00ADDB30 /* Project object */;
+}
